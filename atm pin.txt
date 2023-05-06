@@ -1,0 +1,17 @@
+console.log("atm pin");
+var a = prompt("enter input")
+var storedPin = "2504"
+
+
+function atmPin(pin) {
+
+    if (pin == storedPin) {
+    console.log("your PIN is matched")
+    }
+    else {
+        console.log("your PIN is Mismatched" )
+    }
+}
+
+atmPin(a)
+
