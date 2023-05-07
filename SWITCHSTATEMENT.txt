@@ -1,0 +1,39 @@
+var months = prompt("enter your month number");
+switch(parseInt(months)){
+      case 1 :
+        alert("JANUARY");
+        break;
+        case 2 :
+        alert(" FEBRUARY");
+        break;
+         case 3 :
+        alert("MARCH");
+        break;
+         case 4 :
+        alert("APRIL");
+        break;
+         case 5 :
+        alert(" MAY");
+        break;
+         case 6 :
+        alert("JUNE");
+        break;
+         case 7 :
+        alert("JULY");
+        break;
+          case 8:
+        alert("AUGUST");
+        break;
+          case 9 :
+        alert("SEPTEMBER");
+        break;
+          case 10:
+        alert("OCTOBER");
+        break;
+          case 11 :
+        alert("NOVERMBER");
+        break;
+          case 12 :
+        alert("DECEMBER");
+        break;
+}
